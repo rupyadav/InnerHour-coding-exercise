@@ -1,0 +1,148 @@
+/** Start of Task 1 Styles*/
+.home-container{
+  display: flex;
+  width: 20% !important;
+  margin: auto;
+  justify-content: space-between;
+}
+.textbox-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.textbox-container input{
+  width: 80%;
+}
+.validation-alert{
+  margin-top: 8px;
+  color: #ce2020;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/** End of Task 1 Styles*/
+
+/** Start of Task 2 Styles*/
+.pomodoro-container{
+  width: 35%;
+  margin: auto;
+}
+.break-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  box-shadow: 5px 5px #eee;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 1rem;
+}
+
+#break-label {
+  margin: 0;
+}
+.session-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  box-shadow: 5px 5px #eee;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 1rem;
+}
+
+#session-label {
+  margin: 0;
+}
+
+.timer-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  box-shadow: 5px 5px #eee;
+}
+
+.label-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+button {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#timer-label {
+  margin: 0;
+}
+
+#session-timer-left {
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  color: black;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 5px solid #4ebfc9 !important;
+  align-items: center;
+  display: inline-grid;
+}
+#break-timer-left {
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  color: black;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 5px solid #B22222 !important;
+  align-items: center;
+  display: inline-grid;
+}
+/** End of Task 2 Styles*/
+
+.margin-top{
+  margin-top: 20px;
+}
+
+.navlink{
+  text-decoration: none;
+  color: black;
+}
+.navlink:hover{
+  text-decoration: none;
+}
+.active{
+  color : darkblue
+}
