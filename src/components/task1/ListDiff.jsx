@@ -73,7 +73,7 @@ const ListDiff = () => {
       presentOnlyInListA: list1.filter((item) => !list2.includes(item)),
       presentOnlyInListB: list2.filter((item) => !list1.includes(item)),
       presentInBothList: list1.filter((item) => list2.includes(item)),
-      presentInBothCombinedUnique: uniqueInA.concat(uniqueInB),
+      presentInBothCombinedUnique : [...new Set([...list1, ...list2])],
     });
   };
 
